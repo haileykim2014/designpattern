@@ -18,4 +18,9 @@ public class StarbuzzCoffee {
         beverage3 = new Whip(beverage3);
         System.out.println(beverage3.getDescription() + "$" + beverage3.cost());
     }
+/**
+ * Espresso$1.99
+ * DarkRoast, Mocha, Mocha, Whip$1.49
+ * House Blend coffee, Soy, Mocha, Whip$1.29
+ */
 }
