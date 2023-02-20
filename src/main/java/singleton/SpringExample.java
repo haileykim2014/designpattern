@@ -1,5 +1,6 @@
 package singleton;
 
+import org.springframework.boot.autoconfigure.h2.H2ConsoleProperties;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class SpringExample {
