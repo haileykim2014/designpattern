@@ -8,8 +8,8 @@ public class Client {
         Ship blackShip = new BlackShipFactory().orderShip("blackShip","hailey@gmail.com");
         System.out.println(blackShip);
 
-        PizzaStore nyPizzaStore = new NYPizzaStore();
-        Pizza pizza = nyPizzaStore.orderPizza("cheese");
+        PizzaStore nyPizzaStore = new NYPizzaStore(); //constructor class
+        Pizza pizza = nyPizzaStore.orderPizza("cheese"); // product class
         System.out.println("edin order :"+ pizza.getName());
     }
 }
